@@ -1,0 +1,2 @@
+dimpc    npts    diff       maxdiff graddiff hessdiff  Time
+       2       2 0.84718742E+06 0.25324047E+07 0.76389764E+06 0.33318788E+06

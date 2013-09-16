@@ -1,0 +1,3 @@
+make
+#rm Function*
+mpiexec -np 16 ./MixedOUU  |tee screen

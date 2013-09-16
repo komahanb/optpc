@@ -1,0 +1,23 @@
+# Update strategy for barrier parameter
+mu_strategy adaptive
+
+# Turn off the NLP scaling
+nlp_scaling_method none
+
+# Turn off copyright info
+sb yes
+
+# Set the max number of iterations
+max_iter 500
+
+# Set tolerance
+tol 1.d-10
+
+# Maximum number of CPU seconds
+max_cpu_time 1.d10
+
+# limited-memory or exact
+hessian_approximation limited-memory
+
+# Maximum size of the history for the limited quasi-Newton
+limited_memory_max_history 60
